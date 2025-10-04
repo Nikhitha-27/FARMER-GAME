@@ -7,7 +7,7 @@ class Entity {
   export class Farmer extends Entity {
     constructor(x, y) {
       super(x, y, 34, 34);
-      this.speed = 510;           // player speed
+      this.speed = 240;           // player speed
       this.vx = 0; this.vy = 0;
   
       this.sprite = new Image();

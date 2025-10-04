@@ -6,7 +6,7 @@ import { Farmer } from './Farmer.js';
 export class AIFarmer extends Farmer {
   constructor(x, y) {
     super(x, y);
-    this.speed = 200;       // slower than player
+    this.speed = 240;       // slower than player
     this.isAI = true;
 
     // smoothing / avoidance
