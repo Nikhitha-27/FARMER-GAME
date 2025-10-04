@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Farmer Harvest</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <canvas id="game" width="900" height="540" aria-label="farmer harvest canvas"></canvas>
+
+  <div id="ui">
+    <div class="row">
+      <button id="btnStart">Start</button>
+      <button id="btnReset">Reset</button>
+      <span id="status">Menu</span>
+      <button id="btnTheme" aria-label="Toggle theme">🌞 Theme</button>
+
+    </div>
+
+    <div class="row">
+      <span>Score: <strong id="score">0</strong></span>
+      <span>High Score: <strong id="highscore">0</strong></span>
+      <span>AI Score: <strong id="aiscore">0</strong></span>
+      <span>Time: <strong id="time">60</strong>s</span>
+      <span>Goal: <strong id="goal">30</strong> points</span>
+      <span>Level: <strong id="level">1</strong></span>
+    </div>
+
+    <div class="instructions">
+      <h3>How to Play</h3>
+      <ul>
+        <li>Move with <kbd>←</kbd> <kbd>→</kbd> <kbd>↑</kbd> <kbd>↓</kbd> and collect crops 🌾.</li>
+        <li>Wheat=1, Pumpkin=3, Golden Apple=5 points. Beat the AI to the goal.</li>
+        <li>3 levels with rising difficulty. Press <kbd>P</kbd> to pause/resume.</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- ES modules entry -->
+  <script type="module" src="./src/main.js"></script>
+  <noscript>This game requires JavaScript enabled.</noscript>
+</body>
+</html>
