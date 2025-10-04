@@ -1,13 +1,12 @@
 {
-    "levels": [
-      { "goal": 45, "time": 60, "spawnEvery": 0.6,  "obstacles": 2 },
-      { "goal": 55, "time": 55, "spawnEvery": 0.4,  "obstacles": 3 },
-      { "goal": 65, "time": 50, "spawnEvery": 0.25, "obstacles": 4 }
-    ],
-    "crops": {
-      "wheat": 1,
-      "pumpkin": 3,
-      "goldenApple": 5
-    }
+  "levels": [
+    { "goal": 30, "time": 60, "spawnEvery": 0.9,  "obstacles": 2, "aiSpeed": 200, "growthEvery": 10, "growthAmount": 2 },
+    { "goal": 45, "time": 55, "spawnEvery": 0.7,  "obstacles": 3, "aiSpeed": 210, "growthEvery": 9,  "growthAmount": 2 },
+    { "goal": 60, "time": 50, "spawnEvery": 0.55, "obstacles": 4, "aiSpeed": 220, "growthEvery": 8,  "growthAmount": 2 }
+  ],
+  "crops": {
+    "wheat": 1,
+    "pumpkin": 3,
+    "goldenApple": 5
   }
-  
+}
