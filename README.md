@@ -11,8 +11,7 @@ This is my HW2 project for the JavaScript game assignment. The game is about mov
 3. If you just double-click `index.html`, the game might run but `levels.json` won’t load (blocked by the browser).  
 
 Controls:
-- **Arrow keys** → Move farmer  
-- **P** → Pause/Resume  
+- **Arrow keys** → Move farmer   
 - **Start button** → Begin game  
 - **Reset button** → Go back to menu  
 
